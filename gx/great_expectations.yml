@@ -103,6 +103,12 @@ fluent_datasources:
       usuarios:
         type: dataframe
         batch_metadata: {}
+  mi_datasource:
+    type: pandas
+    assets:
+      usuarios:
+        type: dataframe
+        batch_metadata: {}
 notebooks:
 include_rendered_content:
   globally: false
